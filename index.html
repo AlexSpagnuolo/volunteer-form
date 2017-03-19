@@ -10,13 +10,65 @@
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
+
   <form method="POST" action="#">
+
     <section class="header">
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </section>
+
     <fieldset>
       <legend>Personal details</legend>
+
+      <div>
+        <label for="full-name">Full name</label>
+        <input id="full-name">
+        <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+      </div>
+
+      <div>
+        <label for="name">What should we call you?</label>
+        <input id="name">
+        <p class="italic">What all your friends call you, e.g. “Liz”.</p>
+      </div>
+
+      <div>
+        <label for="dob">Date of birth</label>
+        <input id="dob" placeholder="yyyy-mm-dd">
+      </div>
+
+      <div>
+        <label for="size">T-shirt size</label>
+        <select id="size">
+          <option>Select a t-shirt size</option>
+          <option>Fitted: S</option>
+          <option>Fitted: M</option>
+          <option>Fitted: L</option>
+          <option>Fitted: XL</option>
+          <option>Straight-cut: XS</option>
+          <option>Straight-cut: S</option>
+          <option>Straight-cut: M</option>
+          <option>Straight-cut: L</option>
+          <option>Straight-cut: XL</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+      </div>
+
+      <div>
+        <label for="tel">Phone number (optional)</label>
+        <input class="phone" type="tel" id="tel">
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Address</legend>
+
     </fieldset>
 </body>
 </html>

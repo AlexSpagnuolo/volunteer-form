@@ -2,7 +2,7 @@ html {
   font-family: "Droid Serif", serif;
 }
 
-.header {
+.header, footer {
   color: white;
   background-color: #70ad55;
 }
