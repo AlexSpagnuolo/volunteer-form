@@ -7,16 +7,17 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
   <form method="POST" action="#">
 
-    <section class="header">
+    <header>
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-    </section>
+    </header>
 
     <fieldset>
       <legend>Personal details</legend>
@@ -143,6 +144,9 @@
         <label for="managing">Managing people</label>
       </div>
 
+    </fieldset>
+
+    <fieldset>
       <legend>Do you have any experience with the following?</legend>
 
       <div>
@@ -195,7 +199,11 @@
         <label for="speaking">Speaking to groups</label>
       </div>
 
+    </fieldset>
+
+    <fieldset>
       <legend>Do you have a valid driver's license?</legend>
+
       <div>
         <input id="license-yes" type="radio" name="license">
         <label for="license-yes">Yes</label>
@@ -203,8 +211,11 @@
         <input id="license-no" type="radio" name="license">
         <label for="license-no">No</label>
       </div>
+    </fieldset>
 
+    <fieldset>
       <legend>Do you have a pick-up truck you'd be willing to use?</legend>
+
       <div>
         <input id="truck-yes" type="radio" name="truck">
         <label for="truck-yes">Yes</label>
@@ -212,8 +223,11 @@
         <input id="truck-no" type="radio" name="truck">
         <label for="truck-no">No</label>
       </div>
+    </fieldset>
 
+    <fieldset>
       <legend>Do you have up-to-date first-aid certification?</legend>
+
       <div>
         <input id="aid-yes" type="radio" name="aid">
         <label for="aid-yes">Yes</label>
@@ -225,8 +239,8 @@
     </fieldset>
 
     <fieldset>
-      <div>
         <legend>Please let us know any comments or questions you may have.</legend>
+      <div>
         <textarea id="feedback"></textarea>
       </div>
     </fieldset>
