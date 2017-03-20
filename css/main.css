@@ -7,6 +7,10 @@ header, footer {
   background-color: #70ad55;
 }
 
+.optional {
+  color: #70ad55;
+}
+
 fieldset {
   border: 0;
 }
